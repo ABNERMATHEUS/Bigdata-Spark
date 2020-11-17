@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2da85680-ebdf-4bc9-b5d7-c45b2887e019" name="Default Changelist" comment="" />
+    <list default="true" id="2da85680-ebdf-4bc9-b5d7-c45b2887e019" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +30,13 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,12 +66,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15049227" />
     <property name="project.structure.side.proportion" value="0.35346097" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.RealEstateReduceAndSortByKey">
+  <component name="RunManager" selected="Application.Question1">
     <configuration name="DatasetRDDConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sql.DatasetRDDConversion" />
       <module name="big-data-spark-student" />
@@ -77,10 +86,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RealEstateReduceAndSortByKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pairrdd.aggregation.RealEstateReduceAndSortByKey" />
+    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question1.Question1" />
       <module name="big-data-spark-student" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pairrdd.aggregation.*" />
@@ -138,6 +146,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -158,11 +177,11 @@
       <item itemvalue="Application.DatasetRDDConversion" />
       <item itemvalue="Application.SortedWordCount" />
       <item itemvalue="Application.UKPostCodeJoin" />
-      <item itemvalue="Application.RealEstateReduceAndSortByKey" />
+      <item itemvalue="Application.Question1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RealEstateReduceAndSortByKey" />
+        <item itemvalue="Application.Question1" />
         <item itemvalue="Application.SortedWordCount" />
         <item itemvalue="Application.UKPostCodeJoin" />
         <item itemvalue="Application.DatasetRDDConversion" />
@@ -190,6 +209,7 @@
       <workItem from="1604441573880" duration="8202000" />
       <workItem from="1605045489569" duration="8170000" />
       <workItem from="1605650433214" duration="1017000" />
+      <workItem from="1605655273761" duration="254000" />
     </task>
     <servers />
   </component>
@@ -209,18 +229,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1780" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605052546113">
+    <state x="1806" y="94" key="#Project_Structure" timestamp="1605655296078">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1780" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605052546113" />
+    <state x="1806" y="94" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605655296078" />
+    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605655529571">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605655529571" />
     <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605050324626">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605050324626" />
-    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605047169747">
+    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605655528737">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605047169747" />
+    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605655528737" />
     <state x="2056" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1605051095470">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
