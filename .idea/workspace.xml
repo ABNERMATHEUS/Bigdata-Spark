@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2da85680-ebdf-4bc9-b5d7-c45b2887e019" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,12 @@
     <property name="project.structure.side.proportion" value="0.35346097" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Question1">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Question3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Question3">
     <configuration name="DatasetRDDConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sql.DatasetRDDConversion" />
       <module name="big-data-spark-student" />
@@ -86,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question1.Question1" />
+    <configuration name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question3.Question3" />
       <module name="big-data-spark-student" />
       <extension name="coverage">
         <pattern>
@@ -146,13 +152,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,11 +185,11 @@
       <item itemvalue="Application.DatasetRDDConversion" />
       <item itemvalue="Application.SortedWordCount" />
       <item itemvalue="Application.UKPostCodeJoin" />
-      <item itemvalue="Application.Question1" />
+      <item itemvalue="Application.Question3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question1" />
+        <item itemvalue="Application.Question3" />
         <item itemvalue="Application.SortedWordCount" />
         <item itemvalue="Application.UKPostCodeJoin" />
         <item itemvalue="Application.DatasetRDDConversion" />
@@ -209,7 +217,8 @@
       <workItem from="1604441573880" duration="8202000" />
       <workItem from="1605045489569" duration="8170000" />
       <workItem from="1605650433214" duration="1017000" />
-      <workItem from="1605655273761" duration="254000" />
+      <workItem from="1605655273761" duration="1310000" />
+      <workItem from="1605837760048" duration="7498000" />
     </task>
     <servers />
   </component>
@@ -233,42 +242,58 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1806" y="94" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605655296078" />
-    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605655529571">
+    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605843934766">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605655529571" />
-    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605050324626">
+    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605843934766" />
+    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605842489592">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605050324626" />
-    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605655528737">
+    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605842489592" />
+    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605843934253">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605655528737" />
-    <state x="2056" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1605051095470">
+    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605843934253" />
+    <state x="2056" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1605842438494">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2056" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605051095470" />
-    <state width="1323" height="436" key="GridCell.Tab.0.bottom" timestamp="1605135226751">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2056" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605842438494" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1605845194455">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="436" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605135226751" />
-    <state width="1877" height="436" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605052762551" />
-    <state width="1323" height="436" key="GridCell.Tab.0.center" timestamp="1605135226750">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1605845194455">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="436" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605135226750" />
-    <state width="1877" height="436" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605052762551" />
-    <state width="1323" height="436" key="GridCell.Tab.0.left" timestamp="1605135226749">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1605845194455">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="436" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605135226749" />
-    <state width="1877" height="436" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605052762551" />
-    <state width="1323" height="436" key="GridCell.Tab.0.right" timestamp="1605135226751">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1605845194455">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="436" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605135226751" />
-    <state width="1877" height="436" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605052762551" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605845194455">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1605845194455">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1605845194455">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1605845194455">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
     <state x="0" y="0" width="1382" height="815" key="dock-window-1" timestamp="1604456535435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -277,5 +302,16 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1982" y="240" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605047577424" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Question3/Question3.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
