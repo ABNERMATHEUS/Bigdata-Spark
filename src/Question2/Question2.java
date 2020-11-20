@@ -22,30 +22,18 @@ public class Question2 {
         JavaRDD<String> linhas = sc.textFile("in/transactions.csv");
 
         int POSICAO_ANO = 1;
-<<<<<<< HEAD
-        linhas.filter(l -> l.split(";")[POSICAO_ANO] != "year");
-=======
->>>>>>> master
+
         JavaRDD<String> year = linhas.flatMap(l -> Arrays.asList(l.split(";")[POSICAO_ANO]).iterator());
         JavaPairRDD<String, Integer> perYear = year.mapToPair(p -> new Tuple2<>(p, 1));
 
         JavaPairRDD<String, Integer> ocorrencias = perYear.reduceByKey((x, y) -> x + y);
 
         List<Tuple2<String, Integer>> resultado = ocorrencias.collect();
-<<<<<<< HEAD
-        for (Tuple2<String, Integer> r : resultado) {
-            System.out.println(r._1() + "\t" + r._2());
-        }
 
-
-
-
-=======
         for(Tuple2<String, Integer> r : resultado) {
             System.out.println(r._1() + "\t" + r._2());
         }
 
->>>>>>> master
     }
 
 }

@@ -38,7 +38,9 @@ public class Question3 {
         for(Tuple2<String,Integer> r: resultado){
             System.out.println(r._1()+" = "+r._2());
         }
-      
+
+        Reduce.coalesce(1).saveAsTextFile("output/Question3");  //Salvar o arquivo - coalesce é utilizado para salvar em uma partição
+
 
 
 
