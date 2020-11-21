@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2da85680-ebdf-4bc9-b5d7-c45b2887e019" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question2/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question2/Question2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Question3/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Question3/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Question3/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Question3/part-00000" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Question3/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question3/Question3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +82,7 @@
       <recent name="Question3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question3">
+  <component name="RunManager" selected="Application.Question4">
     <configuration name="DatasetRDDConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sql.DatasetRDDConversion" />
       <module name="big-data-spark-student" />
@@ -93,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question3.Question3" />
+    <configuration name="Question4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question4.Question4" />
       <module name="big-data-spark-student" />
       <extension name="coverage">
         <pattern>
@@ -153,6 +157,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -173,11 +190,11 @@
       <item itemvalue="Application.DatasetRDDConversion" />
       <item itemvalue="Application.SortedWordCount" />
       <item itemvalue="Application.UKPostCodeJoin" />
-      <item itemvalue="Application.Question3" />
+      <item itemvalue="Application.Question4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question3" />
+        <item itemvalue="Application.Question4" />
         <item itemvalue="Application.SortedWordCount" />
         <item itemvalue="Application.UKPostCodeJoin" />
         <item itemvalue="Application.DatasetRDDConversion" />
@@ -207,7 +224,8 @@
       <workItem from="1605650433214" duration="1017000" />
       <workItem from="1605655273761" duration="1310000" />
       <workItem from="1605837760048" duration="8390000" />
-      <workItem from="1605910620339" duration="669000" />
+      <workItem from="1605910620339" duration="2022000" />
+      <workItem from="1605913244639" duration="5673000" />
     </task>
     <servers />
   </component>
@@ -231,62 +249,66 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1806" y="94" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605655296078" />
-    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605843934766">
+    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605916524940">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605843934766" />
-    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605842489592">
+    <state x="1780" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605916524940" />
+    <state x="2083" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605911616750">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605842489592" />
-    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605843934253">
+    <state x="2083" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605911616750" />
+    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605917488609">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605843934253" />
+    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605917488609" />
+    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605916523672">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2055" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605916523672" />
     <state x="2056" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1605842438494">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2056" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605842438494" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1605903724602">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1605918675118">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605903724602" />
-    <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845338556" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1605903724601">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605918675118" />
+    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1605918675118">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605903724601" />
-    <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845338556" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1605903724601">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605918675118" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1605918675117">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605903724601" />
-    <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845338556" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1605903724602">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605918675117" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1605918675118">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605903724602" />
-    <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845338556" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605903724603">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605918675118" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605911836696">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605903724603" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1605903724602">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605911836696" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1605911836696">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605903724602" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1605903724602">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605911836696" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1605911836696">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605903724602" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1605903724602">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605911836696" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1605911836696">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605903724602" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605845194455" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605911836696" />
     <state x="0" y="0" width="1382" height="815" key="dock-window-1" timestamp="1604456535435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
