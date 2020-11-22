@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2da85680-ebdf-4bc9-b5d7-c45b2887e019" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Question3/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Question3/.part-00000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Question3/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Question3/part-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question3/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question3/Question3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +72,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Notebook\Desktop\Projetos\bigdata\Bigdata-Spark\in" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Question3" />
     </key>
@@ -157,15 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,6 +221,7 @@
       <workItem from="1605837760048" duration="8390000" />
       <workItem from="1605910620339" duration="2022000" />
       <workItem from="1605913244639" duration="5673000" />
+      <workItem from="1606010085631" duration="597000" />
     </task>
     <servers />
   </component>
