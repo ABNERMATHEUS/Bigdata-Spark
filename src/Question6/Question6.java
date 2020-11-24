@@ -1,4 +1,4 @@
-package Question60;
+package Question6;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -8,7 +8,7 @@ import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import scala.Tuple2;
 
-public class Exercicio6 {
+public class Question6 {
     public static void main(String[] args) {
         // logger
         Logger.getLogger("org").setLevel(Level.ERROR);
@@ -41,6 +41,6 @@ public class Exercicio6 {
         // ordenar
         JavaPairRDD<String, Double> ordenado = maxPrice.sortByKey(false);
 
-        ordenado.coalesce(1).saveAsTextFile("output/Exercicio-06");
+        ordenado.coalesce(1).saveAsTextFile("output/Question6.txt");
     }
 }

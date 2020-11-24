@@ -56,7 +56,7 @@ public class Question5 {
         JavaPairRDD<String, Double> ordenado = prddMedia.sortByKey(true);
 
         // salvar os resultados / utilizando coalesce para os resultado vim em um unico arquivo
-        ordenado.coalesce(1).saveAsTextFile("output/media_commodities.txt");
+        ordenado.coalesce(1).saveAsTextFile("output/Question5.txt");
 
     }
 

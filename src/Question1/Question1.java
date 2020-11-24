@@ -3,8 +3,10 @@ package Question1;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
+import scala.Tuple2;
 
 public class Question1 {
 
@@ -20,9 +22,8 @@ public class Question1 {
 
         JavaRDD<String> reddBrazil = linhas.filter(a -> a.split(";")[POSICAO_PAIS].equals("Brazil"));
         long countTransactions = reddBrazil.count();
-
         System.out.println("Transactions involving Brazil: " + countTransactions);
-    }
+}
 
 
 

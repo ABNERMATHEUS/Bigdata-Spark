@@ -51,7 +51,7 @@ public class Question7 {
             System.out.println("Tupla: " + valor._1() + "-- Total de transações: " + valor._2());
         }
 
-        //reduce.coalesce(1).saveAsTextFile("output/question7.txt");
+        reduce.coalesce(1).saveAsTextFile("output/Question7.txt");
 
     }
 }
